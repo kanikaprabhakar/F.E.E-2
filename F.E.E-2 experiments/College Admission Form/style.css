@@ -1,0 +1,38 @@
+body{
+    background-color: #5A72A0;
+    color: #FDFFE2;
+}
+header{
+    margin-left: 23%;
+    /* display: inline-block; */
+}
+table{
+    /* display: inline-block; */
+    padding: 10px;
+    margin-left: 23%;
+}
+.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 300px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #FDFFE2; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+  }
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #1A2130;
+    display: block;
+    margin-top: 10px;
+  }
+  .sidenav img{
+    margin-bottom: 70px;
+  }
+  .sidenav a:hover {
+    color: #83B4FF;
+  }
