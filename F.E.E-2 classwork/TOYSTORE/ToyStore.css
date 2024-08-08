@@ -1,0 +1,159 @@
+.head{
+    background-color: rgb(212, 237, 49);
+    height: 25px;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+header{
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 0;
+    top: 0;
+    padding: 0;
+    margin: 0;
+}
+.navheading{
+    font-size: 25px;
+    font-weight: 500;
+    padding-left: 75px;
+    
+}
+.navheading a{
+    text-decoration: none;
+    color: black;
+}
+.nav > ul > .left-nav{
+    list-style-type: none;
+}
+.nav >ul>.left-nav>a{
+    text-decoration: none;
+    color:black;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+}
+.nav li{
+    display: inline-block;
+    margin: 30px ;
+}
+.left-nav:hover{
+    text-decoration: underline;
+}
+.right nav{
+    justify-content: right;
+}
+.openCatalog{
+    background-color: rgb(212, 237, 49);
+    color: white;
+    border-radius: 50px;
+    border: none;
+    padding: 20px;
+}
+.backphoto{
+    background-image: url('https://assets.website-files.com/5badda2935e11303a89a461e/5baddd4835e113c6299a48f5_li-tzuni-507346-unsplash.jpg');
+    height: 80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position:relative;
+    background-position: 90% 54%;
+    display: flex;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+.template{
+   
+   align-self: center;
+   height: 275px;
+   width: 500px;
+   text-align: center;
+   background-color: white;
+   padding-left: 0;
+   padding-right: 0;
+   border-radius: 10px;
+   margin-left:35%;
+}
+.homeCategories{
+    margin: 50px;
+    padding: 120px 24px;
+    display: flex;
+    justify-content: center;
+    
+}
+.card1{
+    background-color: #ffc12c;
+    display: flex;
+    border-radius: 16px;
+    margin-right: 15px;
+    margin-left: 15px;
+    padding: 30px 38px;
+}
+.card1 img{
+    position: relative;
+    left: 15px;
+    bottom: 26px;
+    width: 220px;
+    
+}
+.card1-content{
+    position: relative;
+    padding: 55px;
+
+}
+.card1 h3{
+    color: white;
+    font-size: 1.7rem;
+}
+.shopNow{
+    background-color: white;
+    padding: 25px 20px 20px 25px;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+.card2 h3{
+    color: white;
+    font-size: 1.7rem;
+}
+.card2{
+    background-color: #fb416b;
+    justify-content: flex-end;
+    border-radius: 16px;
+    margin-right: 15px;
+    margin-left: 15px;
+    display: flex;
+    padding: 30px 38px;
+}
+.card2 img{
+    position: relative;
+    right: 21px;
+    bottom: 17px;
+    width: 220px;
+    display: flex;
+    padding: 0;
+}
+.card2-content{
+    /* margin-right: 100px; */
+    text-align: right;
+    padding: 55px;
+}
+.Stuffed{
+    padding-top: 0;
+    display: inline-block;
+}
+.shopheader{
+    display: inline-block;
+    margin-bottom: 40px;
+    padding-right: 15px;
+    padding-left: 15px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+a{
+    color: black;
+    text-decoration-style: none;
+    text-decoration: none;
+    display: inline-block;
+}
